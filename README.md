@@ -2,6 +2,8 @@ Juan Verrel Tanuwijaya, 121140072, RA
 UAS Pemrograman Web 
 
 -Bagian 1: Client-side Programming
+Username : Admin
+Password : 123456
 
 Dibuat 2 page website dengan page yang pertama untuk login(index.php), dan page kedua untuk manajemen data makanan CRUD (makanan.php), 
 pada page login ada form untuk menginput data login,
