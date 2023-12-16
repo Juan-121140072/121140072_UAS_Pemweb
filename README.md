@@ -242,9 +242,9 @@ jika user mengklik tombol logout pada makanan.php akan dipanggil fungsi "logout(
                 }
 ```
 
-### Bagian Bonus: Hosting Aplikasi Web
+## Bagian Bonus: Hosting Aplikasi Web
 
-## 1. Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
+### 1. Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
 1. Akses 000webhost.com.
 2. Buat akun baru.
 3. Klik "Create Website" dan pilih plan yang free.
@@ -253,17 +253,17 @@ jika user mengklik tombol logout pada makanan.php akan dipanggil fungsi "logout(
 6. Masuk ke menu "Database Manager", buat database baru, catat nama, user, dan password database, dan update variabel di db_con.php.
 7. Website dapat diakses dengan database yang berfungsi.
    
-## 2. Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
+### 2. Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
    Saya melakukan hosting di 000webhost.com dikarenakan mudah untuk diimplementasikan dan tidak memungut biaya apapun,
    selain itu diberikan layanan database juga yang tidak dimiliki pada beberapa hostingan lain yang gratis seperti layanan hosting pada github.
  
-## 3. Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
+### 3. Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
 1. Implementasi HTTPS dengan sertifikat SSL untuk enkripsi data.
 2. Penggunaan HTTPS untuk melindungi data sensitif selama transmisi.
 3. Penggunaan Web Server Nginx.
 4. Menggunakan cookies ketiak login untuk mencegah user yang belum login mengakses page manajemen.
  
-## 4. Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+### 4. Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
 1. Implementasi sertifikat SSL/TLS untuk koneksi aman.
 2. Penggunaan HTTPS untuk enkripsi data transmisi.
 3. Menggunakan Web Server Nginx.
