@@ -1,5 +1,4 @@
-Juan Verrel Tanuwijaya, 121140072, RA
-UAS Pemrograman Web 
+Juan Verrel Tanuwijaya, 121140072, RA, UAS Pemrograman Web 
 
 Username : Admin
 
