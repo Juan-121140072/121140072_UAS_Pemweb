@@ -89,8 +89,8 @@ session_start(); ?>
             font-weight: bold;
             font-size: 20px;
         }
-        
-        .info-login{
+
+        .info-login {
             position: absolute;
             top: -15px;
             right: 5px;
@@ -122,6 +122,19 @@ session_start(); ?>
     </form>
 
     <script>
+        //check cookie
+        function checkCookie() {
+            var userIdCookie = getCookie('user_id');
+            if (userIdCookie) {
+                window.location.href = 'makanan.php';
+            }
+        }
+
+        function getCookie(name) {
+            var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+            return match ? match[2] : null;
+        }
+        checkCookie();
         document.addEventListener("DOMContentLoaded", function () {
             const loginForm = document.querySelector('form');
 

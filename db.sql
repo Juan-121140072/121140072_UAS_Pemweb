@@ -35,6 +35,14 @@ CREATE TABLE `makanan` (
   `ciri` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Dumping data for table `makanan`
+--
+
+INSERT INTO `makanan` (`id`, `nama`, `kehalalan`, `jenis`, `ciri`) VALUES
+('1', 'Pecel Lele', 'Halal', 'Main Course', 'Asin, Pedas, Kering'),
+('2', 'Es Cendol', 'Halal', 'Desert', 'Manis');
+
 -- --------------------------------------------------------
 
 --

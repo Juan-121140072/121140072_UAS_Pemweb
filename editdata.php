@@ -1,5 +1,4 @@
 <?php
-session_start();
 include "db_con.php";
 
 if (isset($_POST["id"]) && isset($_POST["nama"]) && isset($_POST["kehalalan"]) && isset($_POST["jenis"]) && isset($_POST["ciri"])) {
