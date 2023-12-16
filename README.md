@@ -18,6 +18,7 @@ Sebelum data yang diinput diproses ke dalam file php, data akan terlebih dahulu 
 -Bagian 2: Server-side Programming
 
 Dibuat 5 file php utama yang berfungsi untuk menghandle proses data pada website ke database,
+
 login.php = digunakan untuk memverifikasi user yang ingin login dan ingin mengakses ke dalam page manajemen (method Post), 
 
 tambahdata.php = digunakan untuk menambahkan data makananan yang diinput dari website ke database (method Post),
