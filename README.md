@@ -22,15 +22,15 @@ Sebelum data yang diinput diproses ke dalam file php, data akan terlebih dahulu 
 
 Dibuat 5 file php utama yang berfungsi untuk menghandle proses data pada website ke database,
 
-login.php = digunakan untuk memverifikasi user yang ingin login dan ingin mengakses ke dalam page manajemen (method Post), 
+1. login.php = digunakan untuk memverifikasi user yang ingin login dan ingin mengakses ke dalam page manajemen (method Post), 
 
-tambahdata.php = digunakan untuk menambahkan data makananan yang diinput dari website ke database (method Post),
+2. tambahdata.php = digunakan untuk menambahkan data makananan yang diinput dari website ke database (method Post),
 
-editdata.php = digunakan untuk melakukan pembaruan data yang sudah diinput berdasarkan id yang dipilih (method Post),
+3. editdata.php = digunakan untuk melakukan pembaruan data yang sudah diinput berdasarkan id yang dipilih (method Post),
 
-hapusdata.php = digunakan untuk menghapus data yang telah diinput berdasarkan id (method Get),
+4. hapusdata.php = digunakan untuk menghapus data yang telah diinput berdasarkan id (method Get),
 
-ambildata.php = digunakan untuk mengambil data dari database untuk ditampilkan pada tabel di website(method Get).
+5. ambildata.php = digunakan untuk mengambil data dari database untuk ditampilkan pada tabel di website(method Get).
 
 -Bagian 3: Database Management 
 
@@ -75,17 +75,17 @@ if ($conn->connect_error) {
   ?>
 
   
-Query script php:
+  Query script php:
 
-login.php = "SELECT * FROM users WHERE username='$username' AND password='$password'"
+1. login.php = "SELECT * FROM users WHERE username='$username' AND password='$password'"
 
-tambahdata.php = "INSERT INTO makanan (id, nama, kehalalan, jenis, ciri) VALUES ('$id', '$nama', '$kehalalan', '$jenis', '$ciri');"
+2. tambahdata.php = "INSERT INTO makanan (id, nama, kehalalan, jenis, ciri) VALUES ('$id', '$nama', '$kehalalan', '$jenis', '$ciri');"
 
-editdata.php = "UPDATE makanan SET nama='$nama', kehalalan='$kehalalan', jenis='$jenis', ciri='$ciri' WHERE id='$id';"
+3. editdata.php = "UPDATE makanan SET nama='$nama', kehalalan='$kehalalan', jenis='$jenis', ciri='$ciri' WHERE id='$id';"
 
-hapusdata.php = "DELETE FROM makanan WHERE id='$del'"
+4. hapusdata.php = "DELETE FROM makanan WHERE id='$del'"
 
-ambildata.php = tanpa filter -> "SELECT * FROM makanan", dengan filter -> "SELECT * FROM makanan WHERE jenis = '$filterJenis'"
+5. ambildata.php = tanpa filter -> "SELECT * FROM makanan", dengan filter -> "SELECT * FROM makanan WHERE jenis = '$filterJenis'"
 
 -Bagian 4: State Management
 
