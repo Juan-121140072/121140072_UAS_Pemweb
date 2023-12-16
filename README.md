@@ -1,4 +1,5 @@
-# Juan Verrel Tanuwijaya, 121140072, RA, UAS Pemrograman Web 
+# UAS Pemrograman Web
+## Juan Verrel Tanuwijaya, 121140072, RA
 
 Website (hosting) : https://data-makanan-121140072.000webhostapp.com/ 
 
@@ -8,7 +9,6 @@ Username : Admin
 
 Password : 123456
 
-# UAS Pemrograman Web
 
 ## Bagian 1: Client-side Programming
 
