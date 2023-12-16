@@ -32,19 +32,19 @@ function formTambah() {
                 }
 
 function formEdit() {
-    if (!formActiveNow) {
-        document.querySelector(".edit-data").classList.remove("hidden");
-        formActiveNow = document.querySelector(".edit-data");
-    }
-    else if (formActiveNow != document.querySelector(".edit-data")) {
-        document.querySelector(".edit-data").classList.remove("hidden");
-        formActiveNow.classList.add("hidden");
-        formActiveNow = document.querySelector(".edit-data");
-    } else {
-        formActiveNow.classList.add("hidden");
-        formActiveNow = null;
-    }
-}
+                    if (!formActiveNow) {
+                        document.querySelector(".edit-data").classList.remove("hidden");
+                        formActiveNow = document.querySelector(".edit-data");
+                    }
+                    else if (formActiveNow != document.querySelector(".edit-data")) {
+                        document.querySelector(".edit-data").classList.remove("hidden");
+                        formActiveNow.classList.add("hidden");
+                        formActiveNow = document.querySelector(".edit-data");
+                    } else {
+                        formActiveNow.classList.add("hidden");
+                        formActiveNow = null;
+                    }
+                }
 ```
 
 Formulir pada halaman manajemen memiliki lima input dengan tipe yang berbeda, yaitu teks, radio, pilihan, dan checkbox. Setelah input data, data akan ditampilkan dalam tabel yang dilengkapi dengan fitur filter berdasarkan jenis makanan dan fitur penghapusan data.
