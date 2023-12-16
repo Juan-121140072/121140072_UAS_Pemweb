@@ -101,19 +101,23 @@ jika user mengklik tombol logout pada makanan.php, cookie "user_id" akan dihapus
 -Bagian Bonus: Hosting Aplikasi Web
 
 1. Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
-   Pertama mengakses website 000webhost.com, kemudian membuat akun baru disana, setelah itu klik tombol create website, dan memilih plan yang free,
+
+    Pertama mengakses website 000webhost.com, kemudian membuat akun baru disana, setelah itu klik tombol create website, dan memilih plan yang free,
    kemudian masukan nama website dan password website, setelah itu pilih menu upload file, dan upload semua file website yang telah dibuat ke dalam folder public_html,
    setelah itu masuk ke menu database manager dan dibuat database baru pada 000webhost.com, setelah membuat database copy nama, user, dan password database yang baru dibuat, dan pindahkan ke variabel yang ada pada db_con.php
    setelah semua telah dilakukan website dapat diakses dengan database yang berfungsi sehingga website menjadi dinamis.
    
-2. Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
-   Saya melakukan hosting di 000webhost.com dikarenakan mudah untuk diimplementasikan dan tidak memungut biaya apapun,
+3. Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda. Berikan alasan Anda.
+
+    Saya melakukan hosting di 000webhost.com dikarenakan mudah untuk diimplementasikan dan tidak memungut biaya apapun,
    selain itu diberikan layanan database juga yang tidak dimiliki pada beberapa hostingan lain yang gratis seperti layanan hosting pada github.
  
-3. Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
+5. Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
+  
    Pada web yang di hosting di 000webhost.com menggunakan HTTPS dengan menggunakan sertifikat SSL untuk enkripsi data yang dikirimkan antara server dan klien. Ini penting untuk melindungi data sensitif, seperti informasi login.
  
-4. Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+6. Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+
    Implementasi sertifikat SSL/TLS untuk memastikan koneksi aman antara server dan pengguna,
    digunakan HTTPS untuk mengamankan data yang ditransmisikan antara klien dan server.
    Menggunakan Web Server Nginx.
