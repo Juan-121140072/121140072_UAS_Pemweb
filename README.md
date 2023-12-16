@@ -74,7 +74,8 @@ if ($conn->connect_error) {
   }
   ?>
   
-query script php:
+Query script php:
+
 login.php = "SELECT * FROM users WHERE username='$username' AND password='$password'"
 
 tambahdata.php = "INSERT INTO makanan (id, nama, kehalalan, jenis, ciri) VALUES ('$id', '$nama', '$kehalalan', '$jenis', '$ciri');"
