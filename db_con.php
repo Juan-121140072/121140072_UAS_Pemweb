@@ -1,9 +1,9 @@
 <?php
 
 $sname= "localhost";
-$uname= "root";
-$password= "";
-$db_name= "uas_pemweb";
+$uname= "id21680724_juan";
+$password= "passwordDB123!";
+$db_name= "id21680724_uas_pemweb";
 
 $conn = mysqli_connect($sname, $uname, $password, $db_name);
 
